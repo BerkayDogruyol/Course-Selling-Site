@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berkay Doğruyol / Programla Eğitimleri</title>
+    <meta name="keyword" content="Pyhton,Java,Javascript">
+    <meta name="description" content="Berkay Doğruyol / Programla Eğitimleri">
+
+    <!-- Font Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <!--Font Awesome-->    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+     <!-- Tablet -->    
+     <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css">
+     <!--Phone -->
+     <link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css">
+</head>
+<body>
+    <header class="bg-light-blue">
+        <div class="container">
+            <nav id="navbar">
+                <h1 class="heading-small">BERKAY DOĞRUYOL</h1>
+    
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#training">Educations</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+        </div>
+    </header>
+    
+    <section id="home">
+        <img src="images/20230527_184509.jpg" alt="Berkay" width="250px" height="250px">
+        <div class="name text-center">
+            <h2 class="heading-big">Berkay Doğruyol</h2>
+            <p>FullStack Developer</p>
+        </div>
+
+        <a href="#courses" class="btn btn-dark btn-block">Go to Courses</a>
+    </section>
+    
+    <section id="training" class="bg-dark-blue">
+        <h3 class="text-center heading-medium">Educations</h3>
+        <div class="items">
+            <article class="item">
+                <i class="fa fa-pencil"></i>
+                <h3>Html5</h3>
+                <p>HTML5 is the fifth version of the HTML markup standard, one of the core technologies of the Internet.</p>
+            </article>
+            <article class="item">
+                <i class="fa fa-pencil"></i>
+                <h3>Css3</h3>
+                <p>CSS3, on the other hand, is a web technology that allows us to add visual beauty to our websites and allows us to format text and formats in addition to HTML.</p>
+            </article>
+            <article class="item">  
+                <i class="fa fa-pencil"></i>
+                <h3>Javascript</h3>
+                <p>JavaScript is a programming language that, along with HTML and CSS, is one of the core technologies of the World Wide Web. More than 97% of websites use client-side JavaScript for web page actions, and the code used often includes third-party libraries.</p>
+            </article>
+        </div>
+    </section>
+
+            <section id="courses">
+                <h3 class="text-center heading-medium">Courses</h3>
+                <div class="container">
+                    <div class="courses">
+                        <!-- Course 1 -->
+                        <div class="course">
+                            <div class="course-image">
+                                <img src="images/html.png" alt="Html5">
+                                <span>%50 Discount</span>
+                              </div>
+                                <div class="course-info">
+                                    <div class="title">
+                                         Html5 Course
+                                    </div>
+                                    <div class="description">
+                                        You will learn in 40 hours.
+                                    </div>
+                                    <div class="instructor">
+                                        Berkay Doğruyol
+                                    </div>
+                                    <div class="rating">
+                                        4.1 | 313.131 Voted
+                                        </div>
+                                    </div>
+                                </div>
+                                        <!-- Course 2 -->
+                                        <div class="course">
+                                            <div class="course-image">
+                                        <img src="images/css3.png" alt="Css3">
+                                        <span>%30 İndirim</span>
+                                    </div>
+                                    <div class="course-info">
+                                        <div class="title">
+                                            Css3 Course
+                                        </div>
+                                        <div class="description">
+                                            You will learn in 70 hours.
+                                        </div>
+                                        <div class="instructor">
+                                            Berkay Doğruyol                                  
+                                        </div>
+                                        <div class="rating">
+                                            4.9 | 20.555 Voted
+                                        </div>
+                                    </div>
+                                </div>
+                                            <!-- Course 3 -->
+                                            <div class="course">
+                                                <div class="course-image">
+                                            <img src="images/js.jpeg" alt="JavaScript">
+                                        <span>%30 Discount</span>
+                                                </div>
+                                            <div class="course-info">
+                                        <div class="title">
+                                            Javascript Course
+                                        </div>
+                                        <div class="description">
+                                            You will learn in 200 hours.
+                                        </div>
+                                        <div class="instructor">
+                                            Berkay Doğruyol
+                                        </div>
+                                        <div class="rating">
+                                            4.8 | 29.235 Voted
+                                        </div>
+                                                </div>
+                                            </div>
+                                    </div>
+                                </div>
+            </section>
+
+            <!-- Contact -->
+            <footer id="contact" class="bg-dark-blue">
+                <!-- Form Kısmı -->
+                <div class="contact-form">
+                    <form>
+                        <h4 class="text-center heading-medium">Contact</h4>
+                        <!-- İsim ve Email Yazdırma -->
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input 
+                            type="text" 
+                            class="form-control" 
+                            name="name" 
+                            id="name" 
+                            placeholder="Write Your Name">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <textarea 
+                                type="text" 
+                                class="form-control" 
+                                name="email" 
+                                id="email" 
+                                placeholder="Write E-mail">
+                                </textarea>
+                            </div>
+                        <!-- Mesaj Kutusu -->
+                            <div class="form-group">
+                          <label for="message">Message/label>
+                          <textarea name="message" id="message" class="form-control"rows="5" placeholder="Your Message...">
+                        </textarea>
+                    </div>
+                        <button type="submit" class="btn btn-block">Send</button>
+                    </form>
+                    <ul>
+                        <li><a href="https://www.youtube.com" target="_blank" title="Youtube"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="https://twitter.com" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.instagram.com/chavalitax/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>
+                </div>
+                        </footer>
+            </body> 
+</html>
+
+
+<!-- <div class="contacting">
+                         ** Youtube **
+                        <article class="contacts">
+                            <a href="https://www.youtube.com/watch?v=NbLrb5jifkQ&pp=ygUUc2ViYXN0aWFuIHN6eW1hbnNraSA%3D" target="_blank" title="SzysmanskiYoutube">Youtube | Szysmanski</a>
+                    </article>
+                       * Instagram * 
+                        <article class="contacts">
+                                <a href="https://www.instagram.com/szymanski__11/" target="_blank" title="Szysmanski Instagram">Instagram | Szymanski</a>
+                        </article> -->
+            
